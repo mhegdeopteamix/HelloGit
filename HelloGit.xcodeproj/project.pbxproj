@@ -16,6 +16,7 @@
 		C73C125E1E9CB64300571222 /* HelloGitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C125D1E9CB64300571222 /* HelloGitUITests.swift */; };
 		C73C126F1E9CB83B00571222 /* Sprint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C126E1E9CB83B00571222 /* Sprint1.swift */; };
 		C73C12721E9CBA0C00571222 /* Sprint2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C12711E9CBA0C00571222 /* Sprint2.swift */; };
+		C73C12751E9CBE0500571222 /* Release.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C12741E9CBE0500571222 /* Release.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C73C125F1E9CB64300571222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C73C126E1E9CB83B00571222 /* Sprint1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sprint1.swift; path = Sprint1/Sprint1.swift; sourceTree = "<group>"; };
 		C73C12711E9CBA0C00571222 /* Sprint2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sprint2.swift; path = Sprint2/Sprint2.swift; sourceTree = "<group>"; };
+		C73C12741E9CBE0500571222 /* Release.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Release.swift; path = Release/Release.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		C73C123C1E9CB64200571222 /* HelloGit */ = {
 			isa = PBXGroup;
 			children = (
+				C73C12731E9CBDE500571222 /* Release */,
 				C73C12701E9CB9E400571222 /* Sprint2 */,
 				C73C126D1E9CB82500571222 /* Sprint1 */,
 				C73C123D1E9CB64200571222 /* AppDelegate.swift */,
@@ -145,6 +148,14 @@
 				C73C12711E9CBA0C00571222 /* Sprint2.swift */,
 			);
 			name = Sprint2;
+			sourceTree = "<group>";
+		};
+		C73C12731E9CBDE500571222 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				C73C12741E9CBE0500571222 /* Release.swift */,
+			);
+			name = Release;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C73C126F1E9CB83B00571222 /* Sprint1.swift in Sources */,
+				C73C12751E9CBE0500571222 /* Release.swift in Sources */,
 				C73C12401E9CB64200571222 /* ViewController.swift in Sources */,
 				C73C12721E9CBA0C00571222 /* Sprint2.swift in Sources */,
 				C73C123E1E9CB64200571222 /* AppDelegate.swift in Sources */,
@@ -529,6 +541,7 @@
 				C73C12641E9CB64300571222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C73C12651E9CB64300571222 /* Build configuration list for PBXNativeTarget "HelloGitTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +550,7 @@
 				C73C12671E9CB64300571222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C73C12681E9CB64300571222 /* Build configuration list for PBXNativeTarget "HelloGitUITests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +559,7 @@
 				C73C126A1E9CB64300571222 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
