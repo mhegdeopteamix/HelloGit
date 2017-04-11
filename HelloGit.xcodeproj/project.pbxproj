@@ -14,6 +14,8 @@
 		C73C12481E9CB64200571222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C73C12461E9CB64200571222 /* LaunchScreen.storyboard */; };
 		C73C12531E9CB64300571222 /* HelloGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C12521E9CB64300571222 /* HelloGitTests.swift */; };
 		C73C125E1E9CB64300571222 /* HelloGitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C125D1E9CB64300571222 /* HelloGitUITests.swift */; };
+		C73C126F1E9CB83B00571222 /* Sprint1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C126E1E9CB83B00571222 /* Sprint1.swift */; };
+		C73C12721E9CBA0C00571222 /* Sprint2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73C12711E9CBA0C00571222 /* Sprint2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C73C12591E9CB64300571222 /* HelloGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73C125D1E9CB64300571222 /* HelloGitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloGitUITests.swift; sourceTree = "<group>"; };
 		C73C125F1E9CB64300571222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C73C126E1E9CB83B00571222 /* Sprint1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sprint1.swift; path = Sprint1/Sprint1.swift; sourceTree = "<group>"; };
+		C73C12711E9CBA0C00571222 /* Sprint2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Sprint2.swift; path = Sprint2/Sprint2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		C73C123C1E9CB64200571222 /* HelloGit */ = {
 			isa = PBXGroup;
 			children = (
+				C73C12701E9CB9E400571222 /* Sprint2 */,
+				C73C126D1E9CB82500571222 /* Sprint1 */,
 				C73C123D1E9CB64200571222 /* AppDelegate.swift */,
 				C73C123F1E9CB64200571222 /* ViewController.swift */,
 				C73C12411E9CB64200571222 /* Main.storyboard */,
@@ -123,6 +129,22 @@
 				C73C125F1E9CB64300571222 /* Info.plist */,
 			);
 			path = HelloGitUITests;
+			sourceTree = "<group>";
+		};
+		C73C126D1E9CB82500571222 /* Sprint1 */ = {
+			isa = PBXGroup;
+			children = (
+				C73C126E1E9CB83B00571222 /* Sprint1.swift */,
+			);
+			name = Sprint1;
+			sourceTree = "<group>";
+		};
+		C73C12701E9CB9E400571222 /* Sprint2 */ = {
+			isa = PBXGroup;
+			children = (
+				C73C12711E9CBA0C00571222 /* Sprint2.swift */,
+			);
+			name = Sprint2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C73C126F1E9CB83B00571222 /* Sprint1.swift in Sources */,
 				C73C12401E9CB64200571222 /* ViewController.swift in Sources */,
+				C73C12721E9CBA0C00571222 /* Sprint2.swift in Sources */,
 				C73C123E1E9CB64200571222 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
